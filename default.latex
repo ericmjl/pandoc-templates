@@ -196,12 +196,12 @@ $if(title)$
 \title{$title$$if(thanks)$\thanks{$thanks$}$endif$}
 $endif$
 $if(subtitle)$
-\providecommand{\subtitle}[1]{}
-\subtitle{$subtitle$}
+  \providecommand{\subtitle}[1]{}
+  \subtitle{$subtitle$}
 $endif$
 $if(author)$
-\author{$for(author)$$author$$sep$ \and $endfor$}
-$endif$
+  \author{$for(author)$$author.name$ ($author.affiliation$) \and $endfor$}
+  $endif$
 $if(institute)$
 \institute{$for(institute)$$institute$$sep$ \and $endfor$}
 $endif$
