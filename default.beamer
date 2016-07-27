@@ -198,7 +198,7 @@ $if(subtitle)$
 \subtitle{$subtitle$}
 $endif$
 $if(author)$
-\author{$for(author)$$author$$sep$ \and $endfor$}
+\author{$for(author)$$author.name$ ($author.affiliation$)\and $endfor$}
 $endif$
 $if(institute)$
 \institute{$for(institute)$$institute$$sep$ \and $endfor$}
