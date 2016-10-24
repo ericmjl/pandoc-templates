@@ -117,6 +117,7 @@ $endif$
 $if(highlighting-macros)$
 $highlighting-macros$
 $endif$
+\usepackage[multiple]{footmisc}
 $if(verbatim-in-note)$
 \usepackage{fancyvrb}
 \VerbatimFootnotes % allows verbatim text in footnotes
